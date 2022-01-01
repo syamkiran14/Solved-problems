@@ -74,6 +74,14 @@ int main()
 {
     std::string word;
     std::cin>>word;
-    std::cout<<unic(word);
+    int x = unic(word);
+    if(x)
+    {
+        std::cout<<x;
+    }
+    else
+    {
+        std::cout<<"-1";
+    }
     return 0;
 }
